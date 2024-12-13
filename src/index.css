@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Karmeliet";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/karmeliet-web_regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Tripel Karmeliet";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/Tripel Karmeliet Font.otf") format("otf");
+}
+@font-face {
+  font-family: "Value Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/value-sans-bold-pro.otf") format("otf");
+}
+@font-face {
+  font-family: "Value Sans Pro Medium";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/value-sans-medium-pro.otf") format("otf");
+}
