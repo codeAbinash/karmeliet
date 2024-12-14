@@ -1,28 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @font-face {
-  font-family: "Karmeliet";
+  font-family: 'Karmeliet';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("/fonts/karmeliet-web_regular.woff") format("woff");
+  src: url('/fonts/karmeliet-web_regular.woff') format('woff');
 }
 @font-face {
-  font-family: "Tripel Karmeliet";
+  font-family: 'Tripel Karmeliet';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("/fonts/Tripel Karmeliet Font.otf") format("otf");
+  src: url('/fonts/Tripel Karmeliet Font.otf') format('opentype');
 }
 @font-face {
-  font-family: "Value Sans Pro";
+  font-family: 'Value Sans Pro';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700; /* Assuming bold weight */
   font-display: swap;
-  src: url("/fonts/value-sans-bold-pro.otf") format("otf");
+  src: url('/fonts/value-sans-bold-pro.otf') format('opentype');
 }
 @font-face {
-  font-family: "Value Sans Pro Medium";
+  font-family: 'Value Sans Pro Medium';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500; /* Assuming medium weight */
   font-display: swap;
-  src: url("/fonts/value-sans-medium-pro.otf") format("otf");
+  src: url('/fonts/value-sans-medium-pro.otf') format('opentype');
+}
+
+.karmeliet {
+  font-family: 'Karmeliet', sans-serif;
+}
+
+.tripel-karmeliet {
+  font-family: 'Tripel Karmeliet', sans-serif;
+}
+
+.value-sans-pro {
+  font-family: 'Value Sans Pro', sans-serif;
+}
+
+.value-sans-pro-medium {
+  font-family: 'Value Sans Pro Medium', sans-serif;
 }
