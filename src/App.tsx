@@ -19,7 +19,7 @@ const App: React.FC = () => {
           </div>
           <form
             onSubmit={handleSubmit}
-            className='flex h-full w-full flex-col justify-between gap-5 border-2 border-accent p-[7%] px-[5%]'
+            className='flex h-full w-full flex-col justify-between gap-5 border-2 border-accent p-[7%] px-[10%]'
           >
             <h1 className='value-sans-pro-medium pt-10 text-center text-[2rem] font-semibold text-accent md:pt-0'>
               Maecenas a dui ac erat malesuada.
